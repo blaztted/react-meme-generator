@@ -1,9 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/header.jsx";
+import Header from "./components/Header.jsx";
+import Meme from "./components/Meme.jsx";
 
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <Meme />
+    </div>
+  );
 }
 
 export default App;

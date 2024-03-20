@@ -3,11 +3,11 @@ import meme from "../img/meme.png";
 
 function Header() {
   return (
-    <section className="header">
+    <header>
       <img src={meme}></img>
-      <h1>Meme Generator</h1>
+      <h2>Meme Generator</h2>
       <img src={meme}></img>
-    </section>
+    </header>
   );
 }
 
